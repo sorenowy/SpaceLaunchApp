@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4377A84269A0EB700DF04AF /* RocketListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4377A83269A0EB700DF04AF /* RocketListCell.swift */; };
+		B4377A86269B001E00DF04AF /* RocketSelectedId.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4377A85269B001E00DF04AF /* RocketSelectedId.swift */; };
+		B4377A8A269B00D200DF04AF /* URLDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4377A89269B00D200DF04AF /* URLDetails.swift */; };
+		B4377A8D269C7CBC00DF04AF /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = B4377A8C269C7CBC00DF04AF /* AlamofireImage */; };
+		B4377A92269DD8ED00DF04AF /* TitleLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4377A91269DD8ED00DF04AF /* TitleLabelView.swift */; };
+		B4377A94269DDC6000DF04AF /* RocketListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4377A93269DDC6000DF04AF /* RocketListTableView.swift */; };
+		B4377A96269DE3C800DF04AF /* LoadingLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4377A95269DE3C800DF04AF /* LoadingLogoView.swift */; };
 		B46AD2D7269756C5002E4A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD2D6269756C5002E4A34 /* AppDelegate.swift */; };
 		B46AD2D9269756C5002E4A34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD2D8269756C5002E4A34 /* SceneDelegate.swift */; };
 		B46AD2DB269756C5002E4A34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD2DA269756C5002E4A34 /* ViewController.swift */; };
@@ -15,6 +22,20 @@
 		B46AD2E3269756CB002E4A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46AD2E1269756CB002E4A34 /* LaunchScreen.storyboard */; };
 		B46AD2EE269756CB002E4A34 /* SpaceLaunchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD2ED269756CB002E4A34 /* SpaceLaunchAppTests.swift */; };
 		B46AD2F9269756CB002E4A34 /* SpaceLaunchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD2F8269756CB002E4A34 /* SpaceLaunchAppUITests.swift */; };
+		B46AD308269757AC002E4A34 /* LaunchUpcoming.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD307269757AC002E4A34 /* LaunchUpcoming.swift */; };
+		B46AD30A269757FC002E4A34 /* LaunchUpcomingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD309269757FC002E4A34 /* LaunchUpcomingDetails.swift */; };
+		B46AD30C26975843002E4A34 /* LaunchServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD30B26975843002E4A34 /* LaunchServiceProvider.swift */; };
+		B46AD30E2697589E002E4A34 /* LaunchUpcomingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD30D2697589E002E4A34 /* LaunchUpcomingStatus.swift */; };
+		B46AD3112697595A002E4A34 /* SpaceDevsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD3102697595A002E4A34 /* SpaceDevsAPI.swift */; };
+		B46AD31426975AC6002E4A34 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B46AD31326975AC6002E4A34 /* Alamofire */; };
+		B46AD31626976BB7002E4A34 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD31526976BB7002E4A34 /* Rocket.swift */; };
+		B46AD31826976BF5002E4A34 /* RocketConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD31726976BF4002E4A34 /* RocketConfiguration.swift */; };
+		B46AD31A26976F74002E4A34 /* Launchpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD31926976F74002E4A34 /* Launchpad.swift */; };
+		B46AD31C26976FD8002E4A34 /* LaunchpadLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD31B26976FD8002E4A34 /* LaunchpadLocation.swift */; };
+		B46AD31F2698B25D002E4A34 /* DataLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD31E2698B25D002E4A34 /* DataLoadingView.swift */; };
+		B46AD3222698B334002E4A34 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD3212698B334002E4A34 /* Constants.swift */; };
+		B46AD3262698C79B002E4A34 /* RocketDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD3252698C79B002E4A34 /* RocketDetailsViewController.swift */; };
+		B46AD3282698CCF4002E4A34 /* RocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AD3272698CCF4002E4A34 /* RocketView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +56,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4377A83269A0EB700DF04AF /* RocketListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketListCell.swift; sourceTree = "<group>"; };
+		B4377A85269B001E00DF04AF /* RocketSelectedId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketSelectedId.swift; sourceTree = "<group>"; };
+		B4377A89269B00D200DF04AF /* URLDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLDetails.swift; sourceTree = "<group>"; };
+		B4377A91269DD8ED00DF04AF /* TitleLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabelView.swift; sourceTree = "<group>"; };
+		B4377A93269DDC6000DF04AF /* RocketListTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketListTableView.swift; sourceTree = "<group>"; };
+		B4377A95269DE3C800DF04AF /* LoadingLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingLogoView.swift; sourceTree = "<group>"; };
 		B46AD2D3269756C5002E4A34 /* SpaceLaunchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceLaunchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46AD2D6269756C5002E4A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B46AD2D8269756C5002E4A34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +76,19 @@
 		B46AD2F4269756CB002E4A34 /* SpaceLaunchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceLaunchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46AD2F8269756CB002E4A34 /* SpaceLaunchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceLaunchAppUITests.swift; sourceTree = "<group>"; };
 		B46AD2FA269756CB002E4A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46AD307269757AC002E4A34 /* LaunchUpcoming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchUpcoming.swift; sourceTree = "<group>"; };
+		B46AD309269757FC002E4A34 /* LaunchUpcomingDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchUpcomingDetails.swift; sourceTree = "<group>"; };
+		B46AD30B26975843002E4A34 /* LaunchServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchServiceProvider.swift; sourceTree = "<group>"; };
+		B46AD30D2697589E002E4A34 /* LaunchUpcomingStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchUpcomingStatus.swift; sourceTree = "<group>"; };
+		B46AD3102697595A002E4A34 /* SpaceDevsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceDevsAPI.swift; sourceTree = "<group>"; };
+		B46AD31526976BB7002E4A34 /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
+		B46AD31726976BF4002E4A34 /* RocketConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketConfiguration.swift; sourceTree = "<group>"; };
+		B46AD31926976F74002E4A34 /* Launchpad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launchpad.swift; sourceTree = "<group>"; };
+		B46AD31B26976FD8002E4A34 /* LaunchpadLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchpadLocation.swift; sourceTree = "<group>"; };
+		B46AD31E2698B25D002E4A34 /* DataLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoadingView.swift; sourceTree = "<group>"; };
+		B46AD3212698B334002E4A34 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B46AD3252698C79B002E4A34 /* RocketDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketDetailsViewController.swift; sourceTree = "<group>"; };
+		B46AD3272698CCF4002E4A34 /* RocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46AD31426975AC6002E4A34 /* Alamofire in Frameworks */,
+				B4377A8D269C7CBC00DF04AF /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +118,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4377A8E269CC5BF00DF04AF /* LaunchUpcomingAPIModels */ = {
+			isa = PBXGroup;
+			children = (
+				B46AD31B26976FD8002E4A34 /* LaunchpadLocation.swift */,
+				B46AD31926976F74002E4A34 /* Launchpad.swift */,
+				B46AD31726976BF4002E4A34 /* RocketConfiguration.swift */,
+				B46AD31526976BB7002E4A34 /* Rocket.swift */,
+				B46AD30D2697589E002E4A34 /* LaunchUpcomingStatus.swift */,
+				B46AD30B26975843002E4A34 /* LaunchServiceProvider.swift */,
+				B46AD309269757FC002E4A34 /* LaunchUpcomingDetails.swift */,
+				B46AD307269757AC002E4A34 /* LaunchUpcoming.swift */,
+			);
+			path = LaunchUpcomingAPIModels;
+			sourceTree = "<group>";
+		};
+		B4377A8F269CC5E800DF04AF /* SelectedIdAPIModels */ = {
+			isa = PBXGroup;
+			children = (
+				B4377A89269B00D200DF04AF /* URLDetails.swift */,
+				B4377A85269B001E00DF04AF /* RocketSelectedId.swift */,
+			);
+			path = SelectedIdAPIModels;
+			sourceTree = "<group>";
+		};
+		B4377A90269CD1CA00DF04AF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B46AD3102697595A002E4A34 /* SpaceDevsAPI.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		B46AD2CA269756C5002E4A34 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +173,11 @@
 		B46AD2D5269756C5002E4A34 /* SpaceLaunchApp */ = {
 			isa = PBXGroup;
 			children = (
+				B4377A90269CD1CA00DF04AF /* Core */,
+				B46AD3202698B319002E4A34 /* Utilities */,
+				B46AD31D2698B251002E4A34 /* Views */,
+				B46AD30F2697593F002E4A34 /* Controllers */,
+				B46AD3062697579B002E4A34 /* Models */,
 				B46AD2D6269756C5002E4A34 /* AppDelegate.swift */,
 				B46AD2D8269756C5002E4A34 /* SceneDelegate.swift */,
 				B46AD2DA269756C5002E4A34 /* ViewController.swift */,
@@ -128,6 +207,44 @@
 			path = SpaceLaunchAppUITests;
 			sourceTree = "<group>";
 		};
+		B46AD3062697579B002E4A34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B4377A8F269CC5E800DF04AF /* SelectedIdAPIModels */,
+				B4377A8E269CC5BF00DF04AF /* LaunchUpcomingAPIModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B46AD30F2697593F002E4A34 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B46AD3252698C79B002E4A34 /* RocketDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B46AD31D2698B251002E4A34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B46AD31E2698B25D002E4A34 /* DataLoadingView.swift */,
+				B46AD3272698CCF4002E4A34 /* RocketView.swift */,
+				B4377A83269A0EB700DF04AF /* RocketListCell.swift */,
+				B4377A91269DD8ED00DF04AF /* TitleLabelView.swift */,
+				B4377A93269DDC6000DF04AF /* RocketListTableView.swift */,
+				B4377A95269DE3C800DF04AF /* LoadingLogoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B46AD3202698B319002E4A34 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B46AD3212698B334002E4A34 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +261,10 @@
 			dependencies = (
 			);
 			name = SpaceLaunchApp;
+			packageProductDependencies = (
+				B46AD31326975AC6002E4A34 /* Alamofire */,
+				B4377A8C269C7CBC00DF04AF /* AlamofireImage */,
+			);
 			productName = SpaceLaunchApp;
 			productReference = B46AD2D3269756C5002E4A34 /* SpaceLaunchApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +336,10 @@
 				Base,
 			);
 			mainGroup = B46AD2CA269756C5002E4A34;
+			packageReferences = (
+				B46AD31226975AC6002E4A34 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B4377A8B269C7CBB00DF04AF /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = B46AD2D4269756C5002E4A34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +383,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4377A96269DE3C800DF04AF /* LoadingLogoView.swift in Sources */,
+				B4377A92269DD8ED00DF04AF /* TitleLabelView.swift in Sources */,
+				B46AD31826976BF5002E4A34 /* RocketConfiguration.swift in Sources */,
+				B4377A86269B001E00DF04AF /* RocketSelectedId.swift in Sources */,
+				B46AD31626976BB7002E4A34 /* Rocket.swift in Sources */,
+				B46AD31A26976F74002E4A34 /* Launchpad.swift in Sources */,
+				B46AD308269757AC002E4A34 /* LaunchUpcoming.swift in Sources */,
+				B4377A94269DDC6000DF04AF /* RocketListTableView.swift in Sources */,
 				B46AD2DB269756C5002E4A34 /* ViewController.swift in Sources */,
+				B4377A84269A0EB700DF04AF /* RocketListCell.swift in Sources */,
 				B46AD2D7269756C5002E4A34 /* AppDelegate.swift in Sources */,
+				B46AD30A269757FC002E4A34 /* LaunchUpcomingDetails.swift in Sources */,
+				B46AD31C26976FD8002E4A34 /* LaunchpadLocation.swift in Sources */,
 				B46AD2D9269756C5002E4A34 /* SceneDelegate.swift in Sources */,
+				B4377A8A269B00D200DF04AF /* URLDetails.swift in Sources */,
+				B46AD31F2698B25D002E4A34 /* DataLoadingView.swift in Sources */,
+				B46AD3112697595A002E4A34 /* SpaceDevsAPI.swift in Sources */,
+				B46AD3262698C79B002E4A34 /* RocketDetailsViewController.swift in Sources */,
+				B46AD3222698B334002E4A34 /* Constants.swift in Sources */,
+				B46AD30C26975843002E4A34 /* LaunchServiceProvider.swift in Sources */,
+				B46AD3282698CCF4002E4A34 /* RocketView.swift in Sources */,
+				B46AD30E2697589E002E4A34 /* LaunchUpcomingStatus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +737,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4377A8B269C7CBB00DF04AF /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+		B46AD31226975AC6002E4A34 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4377A8C269C7CBC00DF04AF /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4377A8B269C7CBB00DF04AF /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		B46AD31326975AC6002E4A34 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B46AD31226975AC6002E4A34 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B46AD2CB269756C5002E4A34 /* Project object */;
 }
