@@ -14,7 +14,6 @@ class SpaceDevsAPI {
     
     var limitCount = 20
     var offsetCount = 0
-    var isLoading = true
     var launchUpcoming = LaunchUpcoming()
     var selectedIdDetails = RocketSelectedId()
     
