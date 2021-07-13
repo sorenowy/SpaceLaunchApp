@@ -32,7 +32,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         customTableView.tableList.delegate = self
         customTableView.tableList.dataSource = self
         customTableView.tableList.register(RocketListCell.self, forCellReuseIdentifier: Constants.cellIdentifier)
-        self.api.isLoading = false
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
