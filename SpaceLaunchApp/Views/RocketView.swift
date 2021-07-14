@@ -17,7 +17,6 @@ class RocketView: UIView {
     var rocketName: UILabel = {
         let label = UILabel()
         label.font = .systemFont(ofSize: 20, weight: .bold)
-        // add colour depending on variable passed from the superselfview
         return label
     }()
     var startDate: UILabel = {
@@ -53,7 +52,6 @@ class RocketView: UIView {
             self.rocketLogo = Constants.whiteLogo
             self.backgroundColor = .black
         }
-        print("Initialized View")
     }
     
     required init?(coder: NSCoder) {
@@ -89,8 +87,6 @@ class RocketView: UIView {
         rocketLogo.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 30).isActive = true
         rocketLogo.heightAnchor.constraint(equalToConstant: 100).isActive = true
         rocketLogo.widthAnchor.constraint(equalToConstant: 100).isActive = true
-        
-        //insert name here
         
         rocketName.translatesAutoresizingMaskIntoConstraints = false
         rocketName.topAnchor.constraint(equalTo: topAnchor, constant: 180).isActive = true

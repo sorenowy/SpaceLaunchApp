@@ -31,6 +31,7 @@ class SpaceDevsAPI {
                 self.limitCount = self.offsetCount
                 self.offsetCount += 20
                 print("Validation successful")
+                
             case .failure(let error):
                 print(error)
             }
@@ -48,6 +49,7 @@ class SpaceDevsAPI {
             case .success:
                 let details = response.value!
                 self.selectedIdDetails = details
+                
             case .failure(let error):
                 print(error)
             }

@@ -103,6 +103,7 @@ class RocketListCell: UITableViewCell {
         startStatus.widthAnchor.constraint(equalToConstant: 50).isActive = true
         
     }
+    
     func setRocketAgencyConstraints(){
         rocketAgencyName.translatesAutoresizingMaskIntoConstraints = false
         rocketAgencyName.centerYAnchor.constraint(equalTo: centerYAnchor, constant: -75).isActive = true

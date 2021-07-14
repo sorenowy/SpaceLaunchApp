@@ -11,6 +11,7 @@ import UIKit
 class LoadingLogoView: UIView {
     
     let logo = Constants.whiteLogo
+    
     init(){
         super.init(frame: UIScreen.main.bounds)
         setLogoConstraints()
